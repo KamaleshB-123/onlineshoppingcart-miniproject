@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+body{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/signuppageimage/backgroundimage.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    margin:0px;
+    font-family: Arial;
+    
+}
+
+
+.center{
+	text-align: center;
+}
+
+.content{
+	background-color: white;
+	margin: 60px 3% 60px 55%;
+    padding: 1px 8px 20px 8px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    position: relative;
+}
+
+div.category {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+p.category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.form{
+	margin:20px 8px 10px 8px;
+	padding:2px 2px 2px 2px;
+	border: 1px solid black;
+}
+
+.help-link a{
+	display: block;
+	text-decoration: none;
+	margin-top: 3px;
+}
+
+.label-text{
+	color: black;
+}

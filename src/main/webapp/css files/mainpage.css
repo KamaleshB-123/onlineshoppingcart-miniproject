@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+body{
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/firstpage/backgroundimage.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    margin:0px;
+    font-family: Arial;
+    
+}
+
+.content-box{
+	text-align:center;
+	display: inline-block;
+	margin-left: 35%;
+	position: absolute;
+	margin-top: 30%;
+}
+.content-box button:hover{
+	color:  #59a6f7;
+}
+
+.contact-info{
+	  position: absolute;
+	  top:90%;
+	  left:46%;
+	  text-align: center;
+	  border: 3px solid #6d75e3;
+	  background-color: #0f0f0f96;
+}
+
+.contact-info a{
+	margin-top:5px;
+	text-decoration: none;
+	color:white;
+}
+
+.contact-info a:hover{
+	color: #59a6f7;
+}
+
+.head{
+	background: #3d87ff;
+}
+

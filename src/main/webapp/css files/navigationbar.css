@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+
+.nav-bar{
+	background-color: #4287f5;
+	margin:0px 0px 0px 0px;
+	padding: 10px 8px 7px 8px;  
+}
+
+.category{
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+}
+
+.category p{
+	float: right;
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	font-stretch: narrower;
+	color: white;
+}
+.shopicon{
+	height: 30px;
+	width: 30px;
+	
+}
+
+.username{
+	color:white;
+	display: inline-block;
+	margin-left: 35%;
+}
+
+.dropbtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 1%;
+  overflow: visible;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+  overflow: visible;
+}
+
+.dropdown-content  p ,a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  overflow: visible;
+}
+
+.dropdown-content  p:hover{
+	background-color: #ddd;
+	}
+.dropdown-content  a:hover {
+	background-color: #ddd;
+	}
+.dropdown:hover .dropdown-content {
+	display: block;
+	}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+	}
+	
+	
+.cart{
+	display: inline-block;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 15px;
+}
+	
+.cart-icon	{
+	height: 30px;
+	width: 30px;
+}
+
+.home{
+	display: inline-block;
+	position: relative;
+	margin-left: 15px;
+	
+}
+
+.home a{
+	color:white;
+}
+
+
+.logout{
+	display: inline-block;
+	position: relative;
+	margin-left: 15px;
+	
+}
+
+.logout a{
+	color:white;
+}
+
+.carousel{
+	 background-color: white;
+    margin: 40px 20px 40px 20px;
+    padding: 0px  0px 0px 0px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+.imgsize1{
+	height: 300px;
+	width:100%;
+}
+.imgsize2{
+	height: 300px;
+	width:100%;
+}
+.imgsize3{
+	height: 300px;
+	width:100%;
+}
+.imgsize4{
+	height: 300px;
+	width:100%;
+}
+
+
+
+.cart-btn{
+	text-align: center;
+}

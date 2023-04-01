@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+body{
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cartimage/backgroundimage.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    margin:0px;
+    font-family: Arial;
+}
+
+h1{
+	text-align: center;
+}
+
+.card{
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
+.card-body{
+	color: black;
+}
+

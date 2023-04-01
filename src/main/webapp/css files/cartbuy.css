@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+
+body{
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cartimage/buy.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:black;
+    margin:0px;
+    font-family: Arial;
+}
+
+
+.card{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.Details{
+	margin-left: 80px;
+	font-family: fantasy;
+	font-size: 25px;
+	
+}
+
+.details{
+	color: white;	
+}
